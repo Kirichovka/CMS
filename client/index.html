@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Модальное окно логина -->
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <h2>Login</h2>
+                <form id="login-form">
+                    <input type="text" id="login-username" placeholder="Username" required>
+                    <input type="password" id="login-password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <div id="login-message"></div>
+                <p>Don't have an account? <a href="#" id="showRegister">Register here</a></p>
+            </div>
+        </div>
+
+        <!-- Модальное окно регистрации -->
+        <div id="registerModal" class="modal">
+            <div class="modal-content">
+                <h2>Register</h2>
+                <form id="register-form">
+                    <input type="text" id="register-username" placeholder="Username" required>
+                    <input type="password" id="register-password" placeholder="Password" required>
+                    <input type="text" id="mysql-username" placeholder="MySQL Username" required>
+                    <input type="password" id="mysql-password" placeholder="MySQL Password" required>
+                    <input type="text" id="mysql-host" placeholder="MySQL Host" required>
+                    <button type="submit">Register</button>
+                </form>
+                <div id="register-message"></div>
+                <p>Already have an account? <a href="#" id="showLogin">Login here</a></p>
+            </div>
+        </div>
+
+        <!-- Модальное окно добавления проекта -->
+        <div id="addProjectModal" class="modal">
+            <div class="modal-content">
+                <h2>Add Project</h2>
+                <form id="add-project-form">
+                    <input type="text" id="project-name" placeholder="Project Name" required>
+                    <button type="submit">Add Project</button>
+                </form>
+                <div id="add-project-message"></div>
+                <button class="close-modal" id="closeAddProjectModal">Close</button>
+            </div>
+        </div>
+
+        <!-- Основной контент -->
+        <div id="content" style="display: none;">
+            <div id="breadcrumbs">Path: /projects</div>
+            <div id="content-list">
+                <div class="content-item add-project">
+                    <span>+ Add Project</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Модальное окно добавления базы данных -->
+        <div id="addDatabaseModal" class="modal">
+            <div class="modal-content">
+                <h2>Add Database</h2>
+                <form id="add-database-form">
+                    <input type="text" id="database-name" placeholder="Database Name" required>
+                    <button type="submit">Add Database</button>
+                </form>
+                <div id="add-database-message"></div>
+                <button class="close-modal" id="closeAddDatabaseModal">Close</button>
+            </div>
+        </div>
+
+        <!-- Контент для баз данных -->
+        <div id="databases-content" style="display: none;">
+            <div id="breadcrumbs-databases">Path: /projects/<span id="current-project-name"></span>/databases</div>
+            <div id="databases-list">
+                <div class="content-item add-database">
+                    <span>+ Add Database</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

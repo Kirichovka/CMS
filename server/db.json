@@ -1,0 +1,153 @@
+{
+  "users": [
+    {
+      "id": "f412",
+      "username": "Kirill",
+      "password": "123",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost",
+      "projects": [
+        {
+          "name": "новый проект"
+        }
+      ],
+      "databases": [],
+      "tables": [],
+      "content": []
+    },
+    {
+      "id": "6464",
+      "username": "Kirill",
+      "password": "123",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost",
+      "projects": [],
+      "databases": [],
+      "tables": [],
+      "content": []
+    },
+    {
+      "id": "66d0",
+      "username": "Kirill",
+      "password": "123",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost",
+      "projects": [],
+      "databases": [],
+      "tables": [],
+      "content": []
+    },
+    {
+      "id": "88a5",
+      "username": "Kirill",
+      "password": "123",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost",
+      "projects": [
+        {
+          "name": "newProject"
+        }
+      ],
+      "databases": [],
+      "tables": [],
+      "content": []
+    },
+    {
+      "id": "663e",
+      "username": "Kirill",
+      "password": "123",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost",
+      "projects": [
+        {
+          "name": "newProject"
+        }
+      ],
+      "databases": [],
+      "tables": [],
+      "content": []
+    }
+  ],
+  "projects": [],
+  "databases": [
+    {
+      "id": "3e1c",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost"
+    },
+    {
+      "id": "30ab",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost"
+    },
+    {
+      "id": "e896",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost"
+    },
+    {
+      "id": "64ef",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost"
+    },
+    {
+      "id": "f0b8",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost"
+    },
+    {
+      "id": "8ecc",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost"
+    },
+    {
+      "id": "c16a",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost"
+    },
+    {
+      "id": "cf66",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost"
+    },
+    {
+      "id": "d901",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost"
+    },
+    {
+      "id": "2367",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost"
+    },
+    {
+      "id": "ecae",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost"
+    },
+    {
+      "id": "eae0",
+      "mysqlUsername": "Admin",
+      "mysqlPassword": "michurinA121102081948I",
+      "mysqlHost": "localhost"
+    }
+  ],
+  "tables": [],
+  "content": []
+}
